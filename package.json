@@ -1,0 +1,14 @@
+{
+  "name": "turborepo-trap-issue",
+  "scripts": {
+    "foo:pnpm": "pnpm -C ./packages/sample run foo",
+    "foo:pnpm:trap": "trap '' INT TERM; pnpm -C ./packages/sample run foo",
+    "foo:turbo": "turbo run foo",
+    "foo:turbo:trap": "trap '' INT TERM; turbo run foo"
+  },
+  "keywords": [],
+  "license": "See license in \"LICENSE\" file",
+  "devDependencies": {
+    "turbo": "^1.8.3"
+  }
+}

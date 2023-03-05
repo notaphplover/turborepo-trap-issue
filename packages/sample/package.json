@@ -1,0 +1,8 @@
+{
+  "name": "sample",
+  "scripts": {
+    "foo": "trap '' INT TERM; node src/script.js"
+  },
+  "keywords": [],
+  "license": "See license in \"LICENSE\" file"
+}
