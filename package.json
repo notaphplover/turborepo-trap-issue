@@ -9,6 +9,6 @@
   "keywords": [],
   "license": "See license in \"LICENSE\" file",
   "devDependencies": {
-    "turbo": "^1.8.3"
+    "turbo": "1.8.5"
   }
 }
